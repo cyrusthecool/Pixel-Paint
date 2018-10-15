@@ -1,0 +1,59 @@
+body, div {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  background-color: #909090;
+}
+.pallet {
+  position: fixed;
+  padding: 4px;
+  border-radius: .5vw;
+  outline: 1px solid gray;
+  z-index: 1;
+  width: 12vw;
+  border: 1px solid rgba(0,0,0,0.5);
+  outline: none;
+  background-color: white;
+  box-shadow: 5px 10px rgba(0,0,0,0.5);
+  cursor: move;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tools {
+  top: 10vh;
+  left: 2vw;
+}
+
+.colours {
+  top: 20vh;
+  left: 2vw;
+}
+
+.palletColour {
+  width: 4vw;
+  height: 4vw;
+  margin: 1vw;
+  float: left;
+  outline: 1px solid rgba(0,0,0,0.5);
+  cursor: crosshair;
+}
+
+.canvas {
+  cursor: crosshair;
+  display: block;
+  height: 75vw;
+  background-color: white;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-size: 16px 16px;
+  background-image: linear-gradient(to right, grey 1px, transparent 1px), linear-gradient(to bottom, grey 1px, transparent 1px);
+}
+
+
+.pixel {
+  float: left;
+  outline: 1px solid rgba(0,0,0,0.1);
+}
