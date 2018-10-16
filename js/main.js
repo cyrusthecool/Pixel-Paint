@@ -1,4 +1,4 @@
-// JS Paint!
+// Pixel-Paint
 console.log('JS Paint starting...');
 // Startup
 // create startup variables
